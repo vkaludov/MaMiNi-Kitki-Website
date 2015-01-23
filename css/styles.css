@@ -1,3 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-image: url("../img/roses-background.jpeg");*/
+    color: #FFFFCC;
+    position: relative;
+}
+
+body::after {
+    content: "";
+    opacity: 0.7;
+    background-image: url("../img/roses-background.jpeg");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
 header {
-    background-color: forestgreen;
+    margin-top: 5px;
+    color: #FFFFCC;
+}
+
+.header-container {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #493D26;
+    background-color: #835C3B;
+    /*background-image: url("../img/images.png");*/
+}
+
+.header-container > div > header > h2 {
+    margin: 10px auto;
+}
+
+#company-logo {
+    float: left;
+}
+
+#slogan {
+    float: right;
+}
+
+.navbar-modified {
+    /*background-color: #A0892B;*/
+    /*border: 2px solid #70602C;*/
+    background-color: #835C3B;
+    border: 2px solid #493D26;
+}
+
+.navbar > .container-fluid > #bs-example-navbar-collapse-1 > ul > li > a {
+    color: #FFFFCC;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.navbar > .container-fluid > #bs-example-navbar-collapse-1 > ul > li > a:hover {
+    /*border-radius: 10px;*/
+    /*background-color: #70602C;*/
+    color: #493D26;
+}
+
+.navbar > .container-fluid > #bs-example-navbar-collapse-1 > ul > .active > a {
+    /*border-radius: 10px;*/
+    /*background-color: #70602C;*/
+    color: #493D26;
+    background-color: #835C3B;
+    /*background-color: #A0892B;*/
+}
+
+.panel-modified {
+    /*background-color: #A0892B;*/
+    /*border: 2px solid #70602C;*/
+    background-color: #835C3B;
+    border: 2px solid #493D26;
+    border-radius: 10px;
 }
