@@ -4,7 +4,6 @@
 }
 
 body {
-    /*background-image: url("../img/roses-background.jpeg");*/
     color: #FFFFCC;
     position: relative;
 }
@@ -22,7 +21,6 @@ body::after {
 }
 
 header {
-    margin-top: 5px;
     color: #FFFFCC;
 }
 
@@ -31,10 +29,9 @@ header {
     padding-bottom: 10px;
     border-bottom: 2px solid #493D26;
     background-color: #896e3f;
-    /*background-image: url("../img/images.png");*/
 }
 
-.header-container > div > header > h2 {
+.header-container > div > div> div > header > h2 {
     margin: 10px auto;
 }
 
