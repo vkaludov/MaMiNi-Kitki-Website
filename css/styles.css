@@ -30,7 +30,7 @@ header {
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 2px solid #493D26;
-    background-color: #835C3B;
+    background-color: #896e3f;
     /*background-image: url("../img/images.png");*/
 }
 
@@ -49,7 +49,7 @@ header {
 .navbar-modified {
     /*background-color: #A0892B;*/
     /*border: 2px solid #70602C;*/
-    background-color: #835C3B;
+    background-color: #896e3f;
     border: 2px solid #493D26;
 }
 
@@ -69,14 +69,14 @@ header {
     /*border-radius: 10px;*/
     /*background-color: #70602C;*/
     color: #493D26;
-    background-color: #835C3B;
+    background-color: #896e3f;
     /*background-color: #A0892B;*/
 }
 
 .panel-modified {
     /*background-color: #A0892B;*/
     /*border: 2px solid #70602C;*/
-    background-color: #835C3B;
+    background-color: #896e3f;
     border: 2px solid #493D26;
     border-radius: 10px;
 }
